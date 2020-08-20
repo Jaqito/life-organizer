@@ -1,11 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="76fafce3-4958-426e-91e9-fd935b815b08" name="Default Changelist" comment="" />
+    <list default="true" id="76fafce3-4958-426e-91e9-fd935b815b08" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/frontend/src/layouts/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/routes/UnprotectedRoutes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/routes/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/routes/index.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -64,7 +75,7 @@
       <option name="presentableId" value="Default" />
       <updated>1597902269232</updated>
       <workItem from="1597902278207" duration="802000" />
-      <workItem from="1597904093058" duration="875000" />
+      <workItem from="1597904093058" duration="1288000" />
     </task>
     <task id="LOCAL-00001" summary="Fix FE">
       <created>1597903850012</created>
@@ -80,7 +91,14 @@
       <option name="project" value="LOCAL" />
       <updated>1597904168777</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="add initial directories">
+      <created>1597905100934</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1597905100934</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -91,7 +109,8 @@
       <path value="$PROJECT_DIR$/frontend" />
     </ignored-roots>
     <MESSAGE value="Fix FE" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fix FE" />
+    <MESSAGE value="add initial directories" />
+    <option name="LAST_COMMIT_MESSAGE" value="add initial directories" />
   </component>
   <component name="WindowStateProjectService">
     <state x="320" y="127" key="#ESLint" timestamp="1597902878270">
@@ -102,10 +121,10 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="442" y="261" key="#com.intellij.fileTypes.FileTypeChooser/-266.-1057.1920.1057/0.23.1440.877@0.23.1440.877" timestamp="1597902537612" />
-    <state x="279" y="23" key="CommitChangelistDialog2" timestamp="1597905030036">
+    <state x="279" y="23" key="CommitChangelistDialog2" timestamp="1597905100560">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="279" y="23" key="CommitChangelistDialog2/-266.-1057.1920.1057/0.23.1440.877@0.23.1440.877" timestamp="1597905030036" />
+    <state x="279" y="23" key="CommitChangelistDialog2/-266.-1057.1920.1057/0.23.1440.877@0.23.1440.877" timestamp="1597905100560" />
     <state x="144" y="100" key="DiffContextDialog" timestamp="1597903152483">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
@@ -130,10 +149,10 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="221" y="100" key="SettingsEditor/-266.-1057.1920.1057/0.23.1440.877@0.23.1440.877" timestamp="1597904142057" />
-    <state x="320" y="197" key="Vcs.Push.Dialog.v2" timestamp="1597904175901">
+    <state x="320" y="197" key="Vcs.Push.Dialog.v2" timestamp="1597905109160">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="320" y="197" key="Vcs.Push.Dialog.v2/-266.-1057.1920.1057/0.23.1440.877@0.23.1440.877" timestamp="1597904175901" />
+    <state x="320" y="197" key="Vcs.Push.Dialog.v2/-266.-1057.1920.1057/0.23.1440.877@0.23.1440.877" timestamp="1597905109160" />
     <state x="380" y="294" key="com.intellij.ide.util.TipDialog" timestamp="1597904126904">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
