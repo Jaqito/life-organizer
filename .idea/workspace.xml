@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="76fafce3-4958-426e-91e9-fd935b815b08" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/frontend/src/layouts/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/routes/UnprotectedRoutes.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/routes/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/routes/index.js" afterDir="false" />
+    <list default="true" id="76fafce3-4958-426e-91e9-fd935b815b08" name="Default Changelist" comment="add paper presentation componenet">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/.env" beforeDir="false" afterPath="$PROJECT_DIR$/backend/.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +20,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1gLmVIwEeY4GEniMGVtAPPIcbQk" />
@@ -45,11 +51,15 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
-    <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
+    <property name="ts.external.directory.path" value="$PROJECT_DIR$/backend/node_modules/typescript/lib" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/frontend/src/views" />
       <recent name="$PROJECT_DIR$/frontend/src" />
+      <recent name="$PROJECT_DIR$/frontend/src/containers" />
+      <recent name="$PROJECT_DIR$/frontend/src/layouts/MainLayout/components/Sidebar/components" />
+      <recent name="$PROJECT_DIR$/frontend/src/layouts/MainLayout/components/Sidebar" />
     </key>
   </component>
   <component name="ServiceViewManager">
@@ -75,7 +85,7 @@
       <option name="presentableId" value="Default" />
       <updated>1597902269232</updated>
       <workItem from="1597902278207" duration="802000" />
-      <workItem from="1597904093058" duration="1288000" />
+      <workItem from="1597904093058" duration="21809000" />
     </task>
     <task id="LOCAL-00001" summary="Fix FE">
       <created>1597903850012</created>
@@ -98,11 +108,105 @@
       <option name="project" value="LOCAL" />
       <updated>1597905100934</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Add more files">
+      <created>1597905435103</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1597905435103</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Add MainLayout Files">
+      <created>1597906460160</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1597906460160</updated>
+    </task>
+    <task id="LOCAL-00006" summary="adding main layout and some npm mods">
+      <created>1597909021258</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1597909021258</updated>
+    </task>
+    <task id="LOCAL-00007" summary="app rendering with theme">
+      <created>1597915727632</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1597915727632</updated>
+    </task>
+    <task id="LOCAL-00008" summary="changing theme">
+      <created>1597916276159</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1597916276159</updated>
+    </task>
+    <task id="LOCAL-00009" summary="changing CSS">
+      <created>1597918323011</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1597918323011</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Adding a Grid Layout">
+      <created>1597918967261</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1597918967261</updated>
+    </task>
+    <task id="LOCAL-00011" summary="fix sidebar">
+      <created>1597965241488</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1597965241488</updated>
+    </task>
+    <task id="LOCAL-00012" summary="changing to layout">
+      <created>1597966679338</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1597966679338</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Make Form Row Layout">
+      <created>1597971237719</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1597971237719</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Add form rows">
+      <created>1597972303916</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1597972303916</updated>
+    </task>
+    <task id="LOCAL-00015" summary="add paper presentation componenet">
+      <created>1597973131472</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1597973131472</updated>
+    </task>
+    <task id="LOCAL-00016" summary="add paper presentation componenet">
+      <created>1597973576392</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1597973576392</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.env" />
   </component>
   <component name="VcsManagerConfiguration">
     <ignored-roots>
@@ -110,7 +214,19 @@
     </ignored-roots>
     <MESSAGE value="Fix FE" />
     <MESSAGE value="add initial directories" />
-    <option name="LAST_COMMIT_MESSAGE" value="add initial directories" />
+    <MESSAGE value="Add more files" />
+    <MESSAGE value="Add MainLayout Files" />
+    <MESSAGE value="adding main layout and some npm mods" />
+    <MESSAGE value="app rendering with theme" />
+    <MESSAGE value="changing theme" />
+    <MESSAGE value="changing CSS" />
+    <MESSAGE value="Adding a Grid Layout" />
+    <MESSAGE value="fix sidebar" />
+    <MESSAGE value="changing to layout" />
+    <MESSAGE value="Make Form Row Layout" />
+    <MESSAGE value="Add form rows" />
+    <MESSAGE value="add paper presentation componenet" />
+    <option name="LAST_COMMIT_MESSAGE" value="add paper presentation componenet" />
   </component>
   <component name="WindowStateProjectService">
     <state x="320" y="127" key="#ESLint" timestamp="1597902878270">
@@ -121,14 +237,18 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="442" y="261" key="#com.intellij.fileTypes.FileTypeChooser/-266.-1057.1920.1057/0.23.1440.877@0.23.1440.877" timestamp="1597902537612" />
-    <state x="279" y="23" key="CommitChangelistDialog2" timestamp="1597905100560">
+    <state x="458" y="215" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1597972542636">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="279" y="23" key="CommitChangelistDialog2/-266.-1057.1920.1057/0.23.1440.877@0.23.1440.877" timestamp="1597905100560" />
-    <state x="144" y="100" key="DiffContextDialog" timestamp="1597903152483">
+    <state x="458" y="215" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/-266.-1057.1920.1057/0.23.1440.877@0.23.1440.877" timestamp="1597972542636" />
+    <state x="279" y="23" key="CommitChangelistDialog2" timestamp="1597974494817">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="144" y="100" key="DiffContextDialog/-266.-1057.1920.1057/0.23.1440.877@0.23.1440.877" timestamp="1597903152483" />
+    <state x="279" y="23" key="CommitChangelistDialog2/-266.-1057.1920.1057/0.23.1440.877@0.23.1440.877" timestamp="1597974494817" />
+    <state x="144" y="100" key="DiffContextDialog" timestamp="1597974701675">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="144" y="100" key="DiffContextDialog/-266.-1057.1920.1057/0.23.1440.877@0.23.1440.877" timestamp="1597974701675" />
     <state width="1396" height="212" key="GridCell.Tab.0.bottom" timestamp="1597904059471">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
@@ -145,17 +265,29 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state width="1396" height="212" key="GridCell.Tab.0.right/-266.-1057.1920.1057/0.23.1440.877@0.23.1440.877" timestamp="1597904059470" />
+    <state x="522" y="94" key="RollbackChangesDialog" timestamp="1597974710830">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="522" y="94" key="RollbackChangesDialog/-266.-1057.1920.1057/0.23.1440.877@0.23.1440.877" timestamp="1597974710830" />
     <state x="221" y="100" key="SettingsEditor" timestamp="1597904142057">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="221" y="100" key="SettingsEditor/-266.-1057.1920.1057/0.23.1440.877@0.23.1440.877" timestamp="1597904142057" />
-    <state x="320" y="197" key="Vcs.Push.Dialog.v2" timestamp="1597905109160">
+    <state x="320" y="197" key="Vcs.Push.Dialog.v2" timestamp="1597974725127">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="320" y="197" key="Vcs.Push.Dialog.v2/-266.-1057.1920.1057/0.23.1440.877@0.23.1440.877" timestamp="1597905109160" />
+    <state x="320" y="197" key="Vcs.Push.Dialog.v2/-266.-1057.1920.1057/0.23.1440.877@0.23.1440.877" timestamp="1597974725127" />
     <state x="380" y="294" key="com.intellij.ide.util.TipDialog" timestamp="1597904126904">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="380" y="294" key="com.intellij.ide.util.TipDialog/-266.-1057.1920.1057/0.23.1440.877@0.23.1440.877" timestamp="1597904126904" />
+    <state x="8" y="23" width="703" height="518" key="find.popup" timestamp="1597974647173">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="8" y="23" width="703" height="518" key="find.popup/-266.-1057.1920.1057/0.23.1440.877@0.23.1440.877" timestamp="1597974647173" />
+    <state x="385" y="213" width="670" height="676" key="search.everywhere.popup" timestamp="1597971595487">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="385" y="213" width="670" height="676" key="search.everywhere.popup/-266.-1057.1920.1057/0.23.1440.877@0.23.1440.877" timestamp="1597971595487" />
   </component>
 </project>
