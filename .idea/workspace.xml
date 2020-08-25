@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="76fafce3-4958-426e-91e9-fd935b815b08" name="Default Changelist" comment="add paper presentation componenet">
+    <list default="true" id="76fafce3-4958-426e-91e9-fd935b815b08" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/.env" beforeDir="false" afterPath="$PROJECT_DIR$/backend/.env" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/docker/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker/docker-compose.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,11 +54,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/frontend/src/views" />
       <recent name="$PROJECT_DIR$/frontend/src" />
       <recent name="$PROJECT_DIR$/frontend/src/containers" />
       <recent name="$PROJECT_DIR$/frontend/src/layouts/MainLayout/components/Sidebar/components" />
-      <recent name="$PROJECT_DIR$/frontend/src/layouts/MainLayout/components/Sidebar" />
     </key>
   </component>
   <component name="ServiceViewManager">
@@ -86,6 +85,9 @@
       <updated>1597902269232</updated>
       <workItem from="1597902278207" duration="802000" />
       <workItem from="1597904093058" duration="21809000" />
+      <workItem from="1598426251546" duration="923000" />
+      <workItem from="1598427965418" duration="1388000" />
+      <workItem from="1598429786067" duration="858000" />
     </task>
     <task id="LOCAL-00001" summary="Fix FE">
       <created>1597903850012</created>
@@ -199,7 +201,35 @@
       <option name="project" value="LOCAL" />
       <updated>1597973576392</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="starting docker">
+      <created>1598398435015</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1598398435015</updated>
+    </task>
+    <task id="LOCAL-00018" summary="starting docker">
+      <created>1598410551808</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1598410551808</updated>
+    </task>
+    <task id="LOCAL-00019" summary="comment out agenda">
+      <created>1598421200962</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1598421200962</updated>
+    </task>
+    <task id="LOCAL-00020" summary="fix docker">
+      <created>1598427156346</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1598427156346</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -226,7 +256,10 @@
     <MESSAGE value="Make Form Row Layout" />
     <MESSAGE value="Add form rows" />
     <MESSAGE value="add paper presentation componenet" />
-    <option name="LAST_COMMIT_MESSAGE" value="add paper presentation componenet" />
+    <MESSAGE value="starting docker" />
+    <MESSAGE value="comment out agenda" />
+    <MESSAGE value="fix docker" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix docker" />
   </component>
   <component name="WindowStateProjectService">
     <state x="320" y="127" key="#ESLint" timestamp="1597902878270">
@@ -241,14 +274,14 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="458" y="215" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/-266.-1057.1920.1057/0.23.1440.877@0.23.1440.877" timestamp="1597972542636" />
-    <state x="279" y="23" key="CommitChangelistDialog2" timestamp="1597974494817">
+    <state x="279" y="23" key="CommitChangelistDialog2" timestamp="1598427156039">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="279" y="23" key="CommitChangelistDialog2/-266.-1057.1920.1057/0.23.1440.877@0.23.1440.877" timestamp="1597974494817" />
-    <state x="144" y="100" key="DiffContextDialog" timestamp="1597974701675">
+    <state x="279" y="23" key="CommitChangelistDialog2/-266.-1057.1920.1057/0.23.1440.877@0.23.1440.877" timestamp="1598427156039" />
+    <state x="144" y="100" key="DiffContextDialog" timestamp="1598398604456">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="144" y="100" key="DiffContextDialog/-266.-1057.1920.1057/0.23.1440.877@0.23.1440.877" timestamp="1597974701675" />
+    <state x="144" y="100" key="DiffContextDialog/-266.-1057.1920.1057/0.23.1440.877@0.23.1440.877" timestamp="1598398604456" />
     <state width="1396" height="212" key="GridCell.Tab.0.bottom" timestamp="1597904059471">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
@@ -265,26 +298,26 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state width="1396" height="212" key="GridCell.Tab.0.right/-266.-1057.1920.1057/0.23.1440.877@0.23.1440.877" timestamp="1597904059470" />
-    <state x="522" y="94" key="RollbackChangesDialog" timestamp="1597974710830">
+    <state x="522" y="94" key="RollbackChangesDialog" timestamp="1598427130967">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="522" y="94" key="RollbackChangesDialog/-266.-1057.1920.1057/0.23.1440.877@0.23.1440.877" timestamp="1597974710830" />
+    <state x="522" y="94" key="RollbackChangesDialog/-266.-1057.1920.1057/0.23.1440.877@0.23.1440.877" timestamp="1598427130967" />
     <state x="221" y="100" key="SettingsEditor" timestamp="1597904142057">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="221" y="100" key="SettingsEditor/-266.-1057.1920.1057/0.23.1440.877@0.23.1440.877" timestamp="1597904142057" />
-    <state x="320" y="197" key="Vcs.Push.Dialog.v2" timestamp="1597974725127">
+    <state x="320" y="197" key="Vcs.Push.Dialog.v2" timestamp="1598419888017">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="320" y="197" key="Vcs.Push.Dialog.v2/-266.-1057.1920.1057/0.23.1440.877@0.23.1440.877" timestamp="1597974725127" />
-    <state x="380" y="294" key="com.intellij.ide.util.TipDialog" timestamp="1597904126904">
+    <state x="320" y="197" key="Vcs.Push.Dialog.v2/-266.-1057.1920.1057/0.23.1440.877@0.23.1440.877" timestamp="1598419888017" />
+    <state x="380" y="294" key="com.intellij.ide.util.TipDialog" timestamp="1598429823034">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="380" y="294" key="com.intellij.ide.util.TipDialog/-266.-1057.1920.1057/0.23.1440.877@0.23.1440.877" timestamp="1597904126904" />
-    <state x="8" y="23" width="703" height="518" key="find.popup" timestamp="1597974647173">
+    <state x="380" y="294" key="com.intellij.ide.util.TipDialog/-266.-1057.1920.1057/0.23.1440.877@0.23.1440.877" timestamp="1598429823034" />
+    <state x="8" y="23" width="703" height="518" key="find.popup" timestamp="1598421061441">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="8" y="23" width="703" height="518" key="find.popup/-266.-1057.1920.1057/0.23.1440.877@0.23.1440.877" timestamp="1597974647173" />
+    <state x="8" y="23" width="703" height="518" key="find.popup/-266.-1057.1920.1057/0.23.1440.877@0.23.1440.877" timestamp="1598421061441" />
     <state x="385" y="213" width="670" height="676" key="search.everywhere.popup" timestamp="1597971595487">
       <screen x="0" y="23" width="1440" height="877" />
     </state>

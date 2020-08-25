@@ -53,6 +53,7 @@
     "mongoose": "^5.7.5",
     "morgan": "^1.9.1",
     "reflect-metadata": "^0.1.12",
+    "sequelize": "^6.3.4",
     "typedi": "^0.8.0",
     "winston": "^3.2.1"
   },
