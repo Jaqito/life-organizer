@@ -1,8 +1,9 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import {GridLayout} from "../../layouts";
 import {Typography} from "@material-ui/core";
 
 const TestItems = () => {
+
   const test = [...Array(10)]
   return test.map((item, i) => {
     return (
@@ -19,6 +20,11 @@ const TestItems = () => {
 const x = TestItems();
 
 const Home = () => {
+
+  useEffect(() => {
+
+  }, []);
+
   return <GridLayout itemsPerRow={3} items={x}/>
 };
 

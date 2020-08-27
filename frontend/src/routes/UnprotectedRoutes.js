@@ -2,7 +2,10 @@ import React from 'react';
 import { Switch, Redirect, } from 'react-router-dom';
 import { RouteWithLayout } from '../components';
 import { MainLayout } from '../layouts';
-import {Home} from '../views'
+import {
+  Home,
+  Stocks,
+} from '../containers'
 
 const UnprotectedRoutes = () => {
   return (
@@ -13,6 +16,12 @@ const UnprotectedRoutes = () => {
         exact
         layout={MainLayout}
         path="/home"
+      />
+      <RouteWithLayout
+        component={Stocks}
+        exact
+        layout={MainLayout}
+        path="/stocks"
       />
     </Switch>
   );

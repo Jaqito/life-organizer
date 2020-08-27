@@ -1,13 +1,11 @@
 import React from 'react';
-import { Card, Typography } from '@material-ui/core';
+import { Card } from '@material-ui/core';
 
 
 
-const CardPresentational = (props) => {
+const CardPresentational = ({component}) => {
   return (<Card>
-          <Typography>
-            This is a test card
-          </Typography>
+          {component}
         </Card>)
 };
 

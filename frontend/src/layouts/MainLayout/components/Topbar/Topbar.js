@@ -20,8 +20,6 @@ const useStyles = makeStyles(theme => ({
 const Topbar = props => {
   const { className, onSidebarOpen, isDesktop, ...rest } = props;
   const classes = useStyles();
-  console.log(props);
-
   //on loading page hide menu button
   return (
     <AppBar
