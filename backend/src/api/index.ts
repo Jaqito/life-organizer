@@ -8,7 +8,7 @@ export default () => {
   const app = Router();
   auth(app);
   user(app);
-  // agendash(app);
+  //agendash(app);
 
   return app;
 };
