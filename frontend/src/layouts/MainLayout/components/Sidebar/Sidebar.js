@@ -8,6 +8,8 @@ import {default as LineChartIcon} from '@material-ui/icons/ShowChart';
 import {default as EmailIcon} from '@material-ui/icons/Email';
 import {default as BookIcon} from '@material-ui/icons/Book';
 import {default as CalendarIcon} from '@material-ui/icons/Today';
+import {default as HouseIcon} from '@material-ui/icons/House';
+
 
 
 
@@ -45,6 +47,11 @@ const Sidebar = props => {
 
   const pages = [
     {
+      title: 'Home',
+      href: '/home',
+      icon: <HouseIcon />
+    },
+    {
       title: 'Banking',
       href: '/banking',
       icon: <PaymentIcon />
@@ -66,7 +73,7 @@ const Sidebar = props => {
     },
     {
       title: 'Tasks',
-      href: '/Tasks',
+      href: '/tasks',
       icon: <CalendarIcon/>
     },
     //kanban?, podcasts, highlights, etc.

@@ -47,7 +47,6 @@ const SidebarNav = props => {
   const { pages, className, dispatch, ...rest } = props;
   const classes = useStyles();
 
-
   const MainMenuItems = () => {
     return (pages.map(page => (
         <ListItem
