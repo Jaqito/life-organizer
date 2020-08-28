@@ -11,7 +11,12 @@ const initialState = {
 const stockReducer =  (state = initialState, action, ) => {
   switch (action.type) {
     case REQUEST_STOCK_DATA: {
-      const stockSymbol = action.requestStockData[0]['symbol'];
+      if(action.requestStockData['pricing'].length === 0){
+        return {
+          ...state
+        }
+      }
+      const stockSymbol = action.requestStockData['pricing'][0]['symbol']; //todo: if no data this will break move to action/thunk
       return {
         ...state,
         stockData: {...state.stockData, [stockSymbol]: action.requestStockData}

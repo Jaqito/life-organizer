@@ -1,46 +1,39 @@
 import React, {} from "react";
-import {GridLayout} from "../../layouts";
-import {CardPresentational, GoogleChart, PaperPresentational} from "../../components";
-import {appleData} from "../../helpers/aapl";
-import {calculatePercentageChange} from "../../helpers";
-import StockList from './StockList';
+import { GoogleChart, PaperPresentational} from "../../components";
+import {appleData} from "../../helpers/testData";
 import { connect } from 'react-redux';
-import {selectStock} from "../../redux/selectors/stocks";
+import {selectStockPricing, selectActiveStock} from "../../redux/selectors/stocks";
+import StockFeed from "./StockFeed";
+import StockList from "./StockList";
+import {Page} from "../../components";
 
-const Stocks = (props) => {
+const Stocks = ({activeStockData, stockSymbol}) => {
   ///> ---> logo api
-  const dailyChange = calculatePercentageChange(appleData[0].data[0].open, appleData[0].data[0].close);
+  //todo useState on useEffect /on mount get AAPL
   return (
-    <PaperPresentational components={[
-      <button onClick={() => console.log(props)}>TEST</button>,
-        <StockList/>,
-          <GoogleChart
-            graphHeaderNames={['Day', 'Price']}
-            propertiesToGetForGraph={['date', 'close']}
-            data={props.activeStockData || []}
-          />
-      ]}
-    />
+    <Page>
+      <PaperPresentational components={[
+            <StockList sizing={3}/>,
+            <GoogleChart
+              graphHeaderNames={['Day', 'Price']}
+              propertiesToGetForGraph={['date', 'close']}
+              data={activeStockData} //appleData[0].data
+              sizing={9}
+              title={stockSymbol} //{'AAPL'}
+            />,
+            <StockFeed sizing={12} />
+        ]}
+      />
+    </Page>
   )
 };
 
 function mapStateToProps(state){
   return {
-    stocks: state.stockReducer,
-    activeStockData: selectStock(state),
+    activeStockData: selectStockPricing(state),
+    stockSymbol: selectActiveStock(state),
   }
 }
 
 
 export default connect(mapStateToProps)(Stocks)
-
-// <CardPresentational component={
-// <div>
-//   <GoogleChart
-//     graphHeaderNames={['Day', 'Price']}
-//     propertiesToGetForGraph={['date', 'close']}
-//     data={appleData[0].data}
-//   />
-//   <Typography>Daily Change {dailyChange}</Typography>
-// </div>
-// }/>

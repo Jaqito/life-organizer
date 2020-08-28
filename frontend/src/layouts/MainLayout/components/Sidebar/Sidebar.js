@@ -46,16 +46,16 @@ const Sidebar = props => {
   const classes = useStyles();
 
   const pages = [
-    {
-      title: 'Home',
-      href: '/home',
-      icon: <HouseIcon />
-    },
-    {
-      title: 'Banking',
-      href: '/banking',
-      icon: <PaymentIcon />
-    },
+    // {
+    //   title: 'Home',
+    //   href: '/home',
+    //   icon: <HouseIcon />
+    // },
+    // {
+    //   title: 'Banking',
+    //   href: '/banking',
+    //   icon: <PaymentIcon />
+    // },
     {
       title: 'Stocks',
       href: '/stocks',
@@ -66,16 +66,16 @@ const Sidebar = props => {
       href: '/news',
       icon: <BookIcon />
     },
-    {
-      title: 'Email',
-      href: '/email',
-      icon: <EmailIcon />
-    },
-    {
-      title: 'Tasks',
-      href: '/tasks',
-      icon: <CalendarIcon/>
-    },
+    // {
+    //   title: 'Email',
+    //   href: '/email',
+    //   icon: <EmailIcon />
+    // },
+    // {
+    //   title: 'Tasks',
+    //   href: '/tasks',
+    //   icon: <CalendarIcon/>
+    // },
     //kanban?, podcasts, highlights, etc.
   ];
 

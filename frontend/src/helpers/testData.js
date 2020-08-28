@@ -1510,3 +1510,335 @@ export const appleData = [
     ]
   }
 ]
+
+export const newsData = [
+  {
+    "source": {
+      "id": "techcrunch",
+      "name": "TechCrunch"
+    },
+    "author": "Anthony Ha",
+    "title": "Facebook tests linking your FB account to your news subscriptions",
+    "description": "Facebook is testing out a new feature that could help news publishers create a better experience for paying subscribers on the social network. The idea is that when Facebook identifies a subscriber from one of its publisher partners, that subscriber will be i…",
+    "url": "http://techcrunch.com/2020/08/28/facebook-subscription-account-link/",
+    "urlToImage": "https://techcrunch.com/wp-content/uploads/2019/10/facebook-newspaper-dollars.png?w=712",
+    "publishedAt": "2020-08-28T15:01:26Z",
+    "content": "Facebook is testing out a new feature that could help news publishers create a better experience for paying subscribers on the social network.\r\nThe idea is that when Facebook identifies a subscriber … [+2115 chars]"
+  },
+  {
+    "source": {
+      "id": "techcrunch",
+      "name": "TechCrunch"
+    },
+    "author": "Jonathan Shieber",
+    "title": "As losses expand, Asana is confident it has the ticket for a successful public listing",
+    "description": "Asana, the project management software developer, dropped its filing for a direct listing on one of the busiest days of a surprisingly busy late summer. The task management toolkit provider started by Facebook co-founder Dustin Moskovitz and early FB employee…",
+    "url": "http://techcrunch.com/2020/08/24/as-losses-expand-asana-is-confident-it-has-the-ticket-for-a-successful-public-listing/",
+    "urlToImage": "https://techcrunch.com/wp-content/uploads/2014/05/justin-rosenstein-asana.jpg?w=600",
+    "publishedAt": "2020-08-24T23:31:28Z",
+    "content": "Asana, the project management software developer, dropped its filing for a direct listing on one of the busiest days of a surprisingly busy late summer.\r\nThe task management toolkit provider started … [+2396 chars]"
+  },
+  {
+    "source": {
+      "id": "cnn",
+      "name": "CNN"
+    },
+    "author": "Donie O'Sullivan, CNN",
+    "title": "Facebook bans ads from pro-Trump PAC",
+    "description": "Facebook announced Thursday it was banning ads from the The Committee to Defend the President, a pro-Trump super PAC. Facebook did not say how long the ban would last.",
+    "url": "https://www.cnn.com/2020/08/06/tech/facebook-trump-pac-ban/index.html",
+    "urlToImage": "https://cdn.cnn.com/cnnnext/dam/assets/200806131858-donald-trump-0806-super-tease.jpg",
+    "publishedAt": "2020-08-06T19:28:38Z",
+    "content": "New York (CNN)Facebook announced Thursday it was banning ads from the The Committee to Defend the President, a pro-Trump super PAC. Facebook did not say how long the ban would last.\r\n\"As a result of … [+1737 chars]"
+  },
+  {
+    "source": {
+      "id": null,
+      "name": "Gizmodo.com"
+    },
+    "author": "Rhett Jones",
+    "title": "Facebook Adds Blackface to List of Prohibited Content It Might Get Around to Enforcing",
+    "description": "A month after Facebook reached a breaking point with civil rights leaders over its failures to police its platform for racist and hateful content, the social media behemoth has announced some changes to hate speech policies. Going forward, Facebook will prohi…",
+    "url": "https://gizmodo.com/facebook-adds-blackface-to-list-of-prohibited-content-i-1844697745",
+    "urlToImage": "https://i.kinja-img.com/gawker-media/image/upload/c_fill,f_auto,fl_progressive,g_center,h_675,pg_1,q_80,w_1200/opxgyncvqzrtunmyuewl.jpg",
+    "publishedAt": "2020-08-12T15:50:00Z",
+    "content": "A month after Facebook reached a breaking point with civil rights leaders over its failures to police its platform for racist and hateful content, the social media behemoth has announced some changes… [+3177 chars]"
+  },
+  {
+    "source": {
+      "id": "cnn",
+      "name": "CNN"
+    },
+    "author": "Brian Fung, CNN Business",
+    "title": "Zuckerberg admits 'operational mistake' in failure to remove Kenosha militia Facebook page",
+    "description": "Facebook made an \"operational mistake\" this week in failing to remove a page that encouraged armed Americans to take to the streets of Kenosha, Wisc., CEO Mark Zuckerberg said.",
+    "url": "https://www.cnn.com/2020/08/28/tech/zuckerberg-kenosha-page/index.html",
+    "urlToImage": "https://cdn.cnn.com/cnnnext/dam/assets/200707155106-mark-zuckerberg-1025-file-super-tease.jpg",
+    "publishedAt": "2020-08-28T20:53:44Z",
+    "content": "(CNN Business)Facebook made an \"operational mistake\" this week in failing to remove a page that encouraged armed Americans to take to the streets of Kenosha, Wisc., CEO Mark Zuckerberg said. \r\nThe pa… [+1763 chars]"
+  }
+]
+
+
+export const topHeadlineData = [
+    {
+      "source": {
+        "id": "the-wall-street-journal",
+        "name": "The Wall Street Journal"
+      },
+      "author": "Jacob Bunge",
+      "title": "Tech Startup, Trying to Be Amazon for Farms, Runs Into Ag Giants",
+      "description": "Farmers Business Network faces pressure from big suppliers as it tries to grow its online platform.",
+      "url": "https://www.wsj.com/articles/tech-startup-trying-to-be-amazon-for-farms-runs-into-ag-giants-11598811850?mod=hp_lead_pos7",
+      "urlToImage": "https://images.wsj.net/im-226662/social",
+      "publishedAt": "2020-08-30T18:24:00Z",
+      "content": "OMAHA, Neb.Inside a packed arena last December, 2,700 farmers sipped coffee from paper cups and listened to remarks on the Midwestern economy: incomes down, costs up and bankruptcies rising.\r\nThe spe… [+226 chars]"
+    },
+    {
+      "source": {
+        "id": "the-wall-street-journal",
+        "name": "The Wall Street Journal"
+      },
+      "author": "Christine Mai-Duc, Alejandro Lazo",
+      "title": "Covid-19 Transforms Lawmaking, Lobbying in California’s Capital",
+      "description": "Fewer bills are considered and fewer lobbyists stalk hallways as much of politics in Sacramento goes online",
+      "url": "https://www.wsj.com/articles/covid-19-transforms-lawmaking-lobbying-in-californias-capital-11598810400?mod=hp_lead_pos8",
+      "urlToImage": "https://images.wsj.net/im-226335/social",
+      "publishedAt": "2020-08-30T18:00:00Z",
+      "content": "SACRAMENTO, Calif.Every August, lobbyists here typically zip between lawmakers offices or park themselves in the halls of the state Capitol, seeking to shape bills that pass in the closing days of th… [+326 chars]"
+    },
+    {
+      "source": {
+        "id": "techcrunch",
+        "name": "TechCrunch"
+      },
+      "author": "Kirsten Korosec",
+      "title": "The Station: Luminar takes the SPAC path and Voyage lifts the hood on its next-gen robotaxi",
+      "description": "The Station is a weekly newsletter dedicated to all things transportation. Sign up here — just click The Station — to receive it every Saturday in your inbox. Hello and welcome back to The Station, a newsletter dedicated to all the present and future ways peo…",
+      "url": "https://techcrunch.com/2020/08/30/the-station-luminar-takes-the-spac-path-and-voyage-lifts-the-hood-on-its-next-gen-robotaxi/",
+      "urlToImage": "https://techcrunch.com/wp-content/uploads/2020/08/Voyages-G3-Robotaxi-U-VC.jpg?w=711",
+      "publishedAt": "2020-08-30T15:30:11Z",
+      "content": "The Station is a weekly newsletter dedicated to all things transportation. Sign up here just click The Station to receive it every Saturday in your inbox.\r\nHello and welcome back to The Station, a ne… [+18606 chars]"
+    },
+    {
+      "source": {
+        "id": "the-wall-street-journal",
+        "name": "The Wall Street Journal"
+      },
+      "author": "Yuka Hayashi",
+      "title": "SBA Loan Program Contractor and Rocket Loans Face Scrutiny",
+      "description": "Small Virginia consultancy, working with larger subcontractor, received almost $800 million in processing fees for loans and grants to firms hit by coronavirus pandemic, documents show",
+      "url": "https://www.wsj.com/articles/sba-loan-program-contractor-and-rocket-loans-face-scrutiny-11598799601?mod=hp_lead_pos5",
+      "urlToImage": "https://images.wsj.net/im-226447/social",
+      "publishedAt": "2020-08-30T15:00:00Z",
+      "content": "WASHINGTONA federal small-business pandemic emergency loan program that has been criticized for delays and fraud has focused attention on the role of a small consulting firm that earned nearly $800 m… [+1269 chars]"
+    },
+    {
+      "source": {
+        "id": "bloomberg",
+        "name": "Bloomberg"
+      },
+      "author": null,
+      "title": "Pot’s Short Squeeze Chance ‘Drastically’ Lower: Cannabis Weekly",
+      "description": "",
+      "url": "https://www.bloomberg.com/news/articles/2020-08-30/pot-s-short-squeeze-chance-drastically-lower-cannabis-weekly",
+      "urlToImage": null,
+      "publishedAt": "2020-08-30T14:00:00+00:00",
+      "content": ""
+    },
+    {
+      "source": {
+        "id": "the-wall-street-journal",
+        "name": "The Wall Street Journal"
+      },
+      "author": "James Mackintosh",
+      "title": "A Flexible Fed Means Higher Inflation",
+      "description": "Broad thrust of central bank’s new strategy is that it will be even more dovish, and interest rates will stay low for even longer",
+      "url": "https://www.wsj.com/articles/a-flexible-fed-means-higher-inflation-11598796001?mod=hp_lead_pos6",
+      "urlToImage": "https://images.wsj.net/im-226602/social",
+      "publishedAt": "2020-08-30T14:00:00Z",
+      "content": "The Federal Reserve has just given itself a license to do pretty much whatever it wants. \r\nChairman Jerome Powell will no doubt disagree: His speech on Thursday set out a new target for average infla… [+143 chars]"
+    },
+    {
+      "source": {
+        "id": "techcrunch",
+        "name": "TechCrunch"
+      },
+      "author": "Mike Butcher",
+      "title": "10 Berlin-based VCs discuss how COVID-19 has changed the landscape",
+      "description": "A breeding ground for European entrepreneurs, Berlin has a knack for producing a lot of new startups: the city attracts top international, diverse talent, and it is packed with investors, events and accelerators. Also important: it’s a more affordable place t…",
+      "url": "https://techcrunch.com/2020/08/30/9-berlin-based-vcs-discuss-how-covid-19-has-changed-their-strategy/",
+      "urlToImage": "https://techcrunch.com/wp-content/uploads/2020/08/GettyImages-1249581852.jpg?w=551",
+      "publishedAt": "2020-08-30T13:45:25Z",
+      "content": "A breeding ground for European entrepreneurs, Berlin has a knack for producing a lot of new startups: the city attracts top international, diverse talent, and it is packed with investors, events and … [+7871 chars]"
+    },
+    {
+      "source": {
+        "id": "the-wall-street-journal",
+        "name": "The Wall Street Journal"
+      },
+      "author": "Sarah Krouse, Brianna Abbott",
+      "title": "Companies Rush to Shore Up Covid-19 Testing Ahead of Flu Season",
+      "description": "Public-health officials and lab executives are trying to avoid repeat of July, when demand overwhelmed testing capacity and wait times grew",
+      "url": "https://www.wsj.com/articles/companies-rush-to-shore-up-covid-19-testing-ahead-of-flu-season-11598788800?mod=hp_lead_pos2",
+      "urlToImage": "https://images.wsj.net/im-225814/social",
+      "publishedAt": "2020-08-30T12:00:00Z",
+      "content": "In a Boston lab where technicians have programmed yeast to produce cannabinoid molecules for medical-marijuana products, scientists are now working to develop a Covid-19 testing system that searches … [+348 chars]"
+    },
+    {
+      "source": {
+        "id": "the-wall-street-journal",
+        "name": "The Wall Street Journal"
+      },
+      "author": "Joe Flint",
+      "title": "How Will the NFL Season Be Affected by the Coronavirus Pandemic?",
+      "description": "Regular season set to start Sept. 10; billions of dollars are at stake for league, TV networks",
+      "url": "https://www.wsj.com/articles/how-will-the-nfl-season-be-affected-by-the-coronavirus-pandemic-11598788800?mod=hp_lead_pos9",
+      "urlToImage": "https://images.wsj.net/im-226265/social",
+      "publishedAt": "2020-08-30T12:00:00Z",
+      "content": "The National Football Leagues regular season is scheduled to kick off Sept. 10, but if 2020 has taught us anything its that there are no guarantees.\r\nThe coronavirus pandemic has led to shortened sea… [+177 chars]"
+    },
+    {
+      "source": {
+        "id": "the-wall-street-journal",
+        "name": "The Wall Street Journal"
+      },
+      "author": "Michael Wursthorn",
+      "title": "The Dow Has Been Revamped. Its Gap With the S&P 500 Is Set to Widen.",
+      "description": "The Dow industrials put less emphasis on technology stocks, the engine behind the market’s rebound from the lows of March",
+      "url": "https://www.wsj.com/articles/the-dow-has-been-revamped-its-gap-with-the-s-p-500-is-set-to-widen-11598785200?mod=hp_lead_pos1",
+      "urlToImage": "https://images.wsj.net/im-226462/social",
+      "publishedAt": "2020-08-30T11:00:00Z",
+      "content": "Even before Apple Inc. unveiled plans for a stock split, the Dow Jones Industrial Average struggled this year to keep up with its broader counterpart, the S&amp;P 500 index.\r\nThe addition of three ne… [+146 chars]"
+    },
+    {
+      "source": {
+        "id": "bloomberg",
+        "name": "Bloomberg"
+      },
+      "author": "Ania Nussbaum, Anna Shiryaevskaya",
+      "title": "EU Calls for New Belarus Election Under Global Supervision",
+      "description": "",
+      "url": "https://www.bloomberg.com/news/articles/2020-08-30/eu-calls-for-new-belarus-election-under-global-supervision-jdd",
+      "urlToImage": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/ibmiN6NX_wCw/v1/1200x799.jpg",
+      "publishedAt": "2020-08-30T10:04:00+00:00",
+      "content": "Belarus opposition supporters make Victory signs during their rally in Minsk on Aug. 27.\r\nPhotographer: Sergei Gapon/AFP via Getty Images\r\nThousands of protesters gathered in the Belarus capital, cap… [+2410 chars]"
+    },
+    {
+      "source": {
+        "id": "the-wall-street-journal",
+        "name": "The Wall Street Journal"
+      },
+      "author": "David Benoit",
+      "title": "Coronavirus Has Left Banks With Lots of Cash and Little to Do With It",
+      "description": "Profits are down. Margins are low. Banks are bracing for a wave of soured loans. On the other hand, they’re raking in fees and deposits.",
+      "url": "https://www.wsj.com/articles/the-coronavirus-is-doing-weird-things-to-the-banking-industry-11598779800?mod=hp_lead_pos4",
+      "urlToImage": "https://images.wsj.net/im-225392/social",
+      "publishedAt": "2020-08-30T09:30:00Z",
+      "content": "The coronavirus threw the U.S. banking system into extreme gyrations.\r\nThe normally unexciting quarterly industry report from the Federal Deposit Insurance Corp., released last week, showed in stark … [+818 chars]"
+    },
+    {
+      "source": {
+        "id": "the-wall-street-journal",
+        "name": "The Wall Street Journal"
+      },
+      "author": "Scott Calvert",
+      "title": "As Trash Piles Up During Covid-19, Residents Raise a Stink",
+      "description": "Americans stuck at home are creating more trash, and some cities can’t keep up",
+      "url": "https://www.wsj.com/articles/as-trash-piles-up-during-covid-residents-raise-a-stink-11598779801?mod=hp_lead_pos10",
+      "urlToImage": "https://images.wsj.net/im-226472/social",
+      "publishedAt": "2020-08-30T09:30:00Z",
+      "content": "The coronavirus pandemic is snarling municipal trash pickup in several U.S. cities, sparking complaints from frustrated residents as uncollected garbage bakes in the summer sun.\r\nThe problem stems in… [+296 chars]"
+    },
+    {
+      "source": {
+        "id": "bloomberg",
+        "name": "Bloomberg"
+      },
+      "author": "Jerrold Colten",
+      "title": "Italy’s Misiani Says Economy Still Seen Shrinking Less Than 10%",
+      "description": "",
+      "url": "https://www.bloomberg.com/news/articles/2020-08-30/italy-s-misiani-says-economy-still-seen-shrinking-less-than-10",
+      "urlToImage": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iePBOI0vsGOU/v0/1200x800.jpg",
+      "publishedAt": "2020-08-30T08:11:00+00:00",
+      "content": "Want the lowdown on European markets? In your inbox before the open, every day. \r\nSign up here.\r\nThe Italian government continues to expect a single-digit decline in gross domestic product this year,… [+761 chars]"
+    },
+    {
+      "source": {
+        "id": "the-wall-street-journal",
+        "name": "The Wall Street Journal"
+      },
+      "author": "WSJ Staff",
+      "title": "In Portland, Man Is Fatally Shot in Another Night of Unrest",
+      "description": "Caravan of Trump supporters began arriving in Oregon city a few hours before shooting and was confronted by protesters",
+      "url": "https://www.wsj.com/articles/in-portland-man-fatally-shot-as-rival-protesters-clash-11598769075?mod=hp_lead_pos3",
+      "urlToImage": "https://images.wsj.net/im-226678/social",
+      "publishedAt": "2020-08-30T06:31:00Z",
+      "content": "A man was shot and killed late Saturday in another night of unrest in Portland, Ore., city police said.\r\nPolice said they had opened a homicide investigation after finding a man who had been shot in … [+166 chars]"
+    },
+    {
+      "source": {
+        "id": "bloomberg",
+        "name": "Bloomberg"
+      },
+      "author": "Paul Abelsky",
+      "title": "Goldman Sees Risk of ‘Grind Lower’ in Dollar-Shekel After Breach",
+      "description": "The shekel is likely to appreciate further after surging past the psychological barrier of 3.4 per dollar last week, according to Goldman Sachs Group Inc.",
+      "url": "https://www.bloomberg.com/news/articles/2020-08-30/goldman-sees-risk-of-grind-lower-in-dollar-shekel-after-breach",
+      "urlToImage": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/if7ENTq.P93o/v0/1200x800.jpg",
+      "publishedAt": "2020-08-30T06:04:00+00:00",
+      "content": "Follow us \r\n@middleeast for more news on the region.\r\nThe shekel is likely to appreciate further after surging past the psychological barrier of 3.4 per dollar last week, according to Goldman Sachs G… [+1182 chars]"
+    },
+    {
+      "source": {
+        "id": "bloomberg",
+        "name": "Bloomberg"
+      },
+      "author": "Misha Savic",
+      "title": "Europe’s Most-Enduring Leader Faces Biggest Test in Balkan Vote",
+      "description": "Voters in Montenegro are heading to the polls in a contest that may end three decades of dominance by Europe’s most enduring leader.",
+      "url": "https://www.bloomberg.com/news/articles/2020-08-30/europe-s-most-enduring-leader-faces-biggest-test-in-balkan-vote",
+      "urlToImage": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i7hcEZm0zyXA/v0/1200x800.jpg",
+      "publishedAt": "2020-08-30T05:00:00+00:00",
+      "content": "Voters in Montenegro are heading to the polls in a contest that may end three decades of dominance by Europe’s most enduring leader.\r\nPresident Milo Djukanovic’s Democratic Party of Socialists, forme… [+2912 chars]"
+    },
+    {
+      "source": {
+        "id": "bloomberg",
+        "name": "Bloomberg"
+      },
+      "author": null,
+      "title": "Nigeria Commercial Hub Asks Schools to Reopen as Pandemic Slows",
+      "description": "",
+      "url": "https://www.bloomberg.com/news/articles/2020-08-29/nigeria-commercial-hub-asks-schools-to-reopen-as-pandemic-slows",
+      "urlToImage": null,
+      "publishedAt": "2020-08-29T20:04:00+00:00",
+      "content": ""
+    },
+    {
+      "source": {
+        "id": "techcrunch",
+        "name": "TechCrunch"
+      },
+      "author": "Alex Wilhelm",
+      "title": "The week’s biggest IPO news had nothing to do with Monday’s S-1 deluge",
+      "description": "Welcome back to The TechCrunch Exchange, a weekly startups-and-markets newsletter. It’s broadly based on the daily column that appears on Extra Crunch, but free, and made for your weekend reading. (You can sign up for the newsletter here!) Ready? Let’s talk m…",
+      "url": "https://techcrunch.com/2020/08/29/the-weeks-biggest-ipo-news-had-nothing-to-do-with-mondays-s-1-deluge/",
+      "urlToImage": "https://techcrunch.com/wp-content/uploads/2020/06/NSussman_Techcrunch_Exchange-multicolor.jpg?w=533",
+      "publishedAt": "2020-08-29T20:00:58Z",
+      "content": "Welcome back to The TechCrunch Exchange, a weekly startups-and-markets newsletter. Its broadly based on the daily column that appears on Extra Crunch, but free, and made for your weekend reading. (Yo… [+7480 chars]"
+    },
+    {
+      "source": {
+        "id": "techcrunch",
+        "name": "TechCrunch"
+      },
+      "author": "Jonathan Shieber",
+      "title": "Reliable Robotics is bringing remote piloting to small cargo planes",
+      "description": "Nearly one year ago, a Cessna 172 Skyhawk stealthily made aviation history when it landed at a small airport in Northern California marking the completion of the first successful remote-piloted flight of a passenger airplane in the United States. The company …",
+      "url": "https://techcrunch.com/2020/08/29/reliable-robotics-is-bringing-remote-piloting-to-the-shipping-industry/",
+      "urlToImage": "https://techcrunch.com/wp-content/uploads/2020/08/Screen-Shot-2020-08-29-at-2.51.57-PM.png?w=761",
+      "publishedAt": "2020-08-29T19:30:53Z",
+      "content": "Nearly one year ago, a Cessna 172 Skyhawk stealthily made aviation history when it landed at a small airport in Northern California marking the completion of the first successful remote-piloted fligh… [+4847 chars]"
+    }
+  ];

@@ -19,7 +19,7 @@ const useStyles = makeStyles(theme => ({
     paddingLeft: 240
   },
   content: {
-    height: '100%'
+    height: '100%',
   }
 }));
 
