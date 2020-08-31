@@ -4,7 +4,7 @@ const calculatePercentageChange = (firstNumber, secondNumber) => {
     if(!firstNumber || !secondNumber){
       throw new Error('Did not get correct parameters, was expecting firstNumber and secondNumber')
     }
-    const sign = firstNumber > secondNumber ? '-' : '+';
+    const sign = firstNumber > secondNumber ? '' : '+'; //neg sign auto added
     return (sign + ((Number(secondNumber) - Number(firstNumber)) / Number(firstNumber) * 100).toFixed(2) + '%')
   } catch(e){
     console.error(e)

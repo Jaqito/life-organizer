@@ -5,12 +5,13 @@ import { MainLayout } from '../layouts';
 import {
   Home,
   Stocks,
+  News,
 } from '../containers'
 
 const UnprotectedRoutes = () => {
   return (
     <Switch>
-      <Redirect exact from="/"  to="/home"/>
+      <Redirect exact from="/"  to="/news"/>
       <RouteWithLayout
         component={Home}
         exact
@@ -22,6 +23,12 @@ const UnprotectedRoutes = () => {
         exact
         layout={MainLayout}
         path="/stocks"
+      />
+      <RouteWithLayout
+        component={News}
+        exact
+        layout={MainLayout}
+        path="/news"
       />
     </Switch>
   );

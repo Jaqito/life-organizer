@@ -1,28 +1,42 @@
 import React from 'react'
-import { Grid, Paper } from '@material-ui/core'
+import { Grid, Paper, Card } from '@material-ui/core'
 import PropTypes from 'prop-types';
-import RouteWithLayout from "../RouteWithLayout";
+import {makeStyles} from "@material-ui/core/styles";
 
-
+const useStyles = makeStyles((theme) => ({
+  root: {
+    //height: '100%',
+  },
+  inline: {
+    display: 'inline',
+  },
+  paper: {
+    height: '100%',
+  }
+}));
 
 //map components onto a paper with a grid
 const PaperPresentational = ({components,}) => {
-  const gridItems = components.map(el => {
-  return <Grid item>
-          {el}
-        </Grid>
+  const classes = useStyles();
+  const gridItems = components.map((el, i) => {
+  return <Grid key={i} item xs={el.props.sizing|| 12}> {/*pass down a size prop or make it full width of container*/}
+          <Paper className={classes.paper}>
+           {el}
+          </Paper>
+         </Grid>
   });
   return (
-    <Paper elevation={3}>
+    <Grid container
+          justify={"center"}
+
+      >
       <Grid
+        spacing={2}
         container
-        direction="row"
-        justify="flex-start"
-        alignItems="center"
       >
         {gridItems}
       </Grid>
-    </Paper>
+    </Grid>
     )
 
 };
