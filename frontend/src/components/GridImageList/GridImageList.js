@@ -39,7 +39,6 @@ function GridImageList({gridImages}){
     const filteredImages  = filterArticlesWithoutProperties(gridImages);
     const imagesWithPatten = setPatternForGrid(filteredImages);
     const adjustedImages = adjustPatternOfImages(imagesWithPatten);
-    //console.log(adjustedImages);
     setAdjustedGridImages(adjustedImages);
   }, [gridImages]);
 
@@ -73,20 +72,23 @@ function GridImageList({gridImages}){
     const endOfPatternElements = [0, 3, 5, 8, 11];
     let smallest;
     endOfPatternElements.map((el => {
-      if(el < mod){
+      if(el <= mod){
         smallest = mod - el;
       }
     }));
-    imagesToAdjust.splice(-smallest);
-    return imagesToAdjust
+    if(!smallest || smallest === 0){
+      return imagesToAdjust
+    } else {
+      imagesToAdjust.splice(-smallest);
+      return imagesToAdjust;
+    }
   };
 
-  console.log(adjustedGridImages);
 
   return (
     <div>
       <GridList cellHeight={360} className={classes.gridList} cols={8}>
-        {adjustedGridImages.map((tile, i) => {
+        {adjustedGridImages ? adjustedGridImages.map((tile, i) => {
                 return (<GridListTile title={tile.title} key={tile.urlToImage + i} cols={tile.cols}>
                         <img className={classes.image} src={tile.urlToImage} alt={tile.title} />
                         <GridListTileBar
@@ -102,7 +104,7 @@ function GridImageList({gridImages}){
                         />
                       </GridListTile>)
 
-        })}
+        }) : null}
       </GridList>
     </div>
   )

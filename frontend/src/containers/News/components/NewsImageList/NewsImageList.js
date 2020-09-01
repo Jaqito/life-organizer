@@ -6,7 +6,7 @@ import {selectNews} from "../../../../redux/selectors/news";
 import {requestNewsDataAsync} from "../../../../redux/thunks/news";
 
 const queries = ['sources=techcrunch,bloomberg,the-wall-street-journal', 'sources=financial-post,recode,hacker-news,new-scientist,',
-  'language=en&category=business', 'language=en&category=technology',];
+  'sources=the-associated-press,reuters,the-new-york-times','country=us&category=business', 'country=us&category=technology',];
 
 function NewsImageList({newsImages, requestNews}){
 

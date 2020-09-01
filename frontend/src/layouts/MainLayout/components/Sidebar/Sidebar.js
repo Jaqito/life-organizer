@@ -4,6 +4,7 @@ import clsx from 'clsx';
 import { makeStyles } from '@material-ui/styles';
 import { Divider, Drawer } from '@material-ui/core';
 import {default as PaymentIcon} from '@material-ui/icons/Payment';
+import {default as DescriptionIcon} from '@material-ui/icons/Description';
 import {default as LineChartIcon} from '@material-ui/icons/ShowChart';
 import {default as EmailIcon} from '@material-ui/icons/Email';
 import {default as BookIcon} from '@material-ui/icons/Book';
@@ -56,6 +57,11 @@ const Sidebar = props => {
     //   href: '/banking',
     //   icon: <PaymentIcon />
     // },
+    {
+      title: 'Documentation',
+      href: '/documentation',
+      icon: <DescriptionIcon />
+    },
     {
       title: 'Stocks',
       href: '/stocks',

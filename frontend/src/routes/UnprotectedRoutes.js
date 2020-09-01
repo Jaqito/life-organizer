@@ -6,17 +6,18 @@ import {
   Home,
   Stocks,
   News,
+  Documentation,
 } from '../containers'
 
 const UnprotectedRoutes = () => {
   return (
     <Switch>
-      <Redirect exact from="/"  to="/news"/>
+      <Redirect exact from="/"  to="/documentation"/>
       <RouteWithLayout
-        component={Home}
+        component={Documentation}
         exact
         layout={MainLayout}
-        path="/home"
+        path="/documentation"
       />
       <RouteWithLayout
         component={Stocks}
@@ -35,3 +36,11 @@ const UnprotectedRoutes = () => {
 };
 
 export default UnprotectedRoutes;
+
+
+// <RouteWithLayout
+//   component={Home}
+//   exact
+//   layout={MainLayout}
+//   path="/home"
+// />

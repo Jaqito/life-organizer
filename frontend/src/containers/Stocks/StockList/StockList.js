@@ -5,8 +5,6 @@ import { connect } from 'react-redux';
 import {requestStockDataAsync} from "../../../redux/thunks/stocks";
 import {selectStockChanges} from "../../../redux/selectors/stocks";
 import { findIndex } from 'lodash';
-import {List, ListItem} from "@material-ui/core";
-
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -27,8 +25,8 @@ function StockList({dailyChanges, requestStockData}) {
   const [stocksList, setStocksList] = useState(stocks);
   const [lastSearchedStock, setLastSearchedStock] = useState();
   useEffect(() => {
-    //requestStockData({name: 'Apple', symbol: 'AAPL',})
-  }, [])
+    requestStockData({name: 'Apple', symbol: 'AAPL',})
+  }, []);
 
   useEffect(() => {
     //todo: split up
