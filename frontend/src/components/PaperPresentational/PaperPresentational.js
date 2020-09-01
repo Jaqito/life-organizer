@@ -7,9 +7,6 @@ const useStyles = makeStyles((theme) => ({
   root: {
     //height: '100%',
   },
-  inline: {
-    display: 'inline',
-  },
   paper: {
     height: '100%',
   }

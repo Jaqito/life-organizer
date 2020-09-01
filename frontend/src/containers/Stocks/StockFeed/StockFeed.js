@@ -4,8 +4,7 @@ import { connect } from 'react-redux';
 import {selectStockNews} from "../../../redux/selectors/stocks";
 
 const StockFeed = ({stockNews}) => {
-  const test = stockNews.slice(0, 20);
-  return <Feed feedItems={test}/>
+  return <Feed feedItems={stockNews}/>
 };
 
 function mapStateToProps(state){
