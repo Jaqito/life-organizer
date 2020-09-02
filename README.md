@@ -3,7 +3,7 @@
 
 ##Technologies Required:
 
-###Yarn or NPM
+Yarn or NPM
 
 ```
 brew install yarn
