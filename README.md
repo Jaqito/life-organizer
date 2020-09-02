@@ -1,7 +1,7 @@
 # Instruction For Installation
 
 
-##Technologies Required:
+## Technologies Required:
 
 Yarn or NPM
 
@@ -12,12 +12,12 @@ OR
 ```$xslt
 brew install npm
 ```
-###Install packages
+### Install packages
 ```
 cd frontend && yarn
 ```
 
-###To start program
+### To start program
 
 ```
 cd frontend && yarn start
