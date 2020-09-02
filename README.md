@@ -17,13 +17,6 @@ brew install npm
 cd frontend && yarn
 ```
 
-###API keys 
-```$xslt
-News API - https://newsapi.org/
-Marketstack - https://marketstack.com/
-```
-
-
 ###To start program
 
 ```
